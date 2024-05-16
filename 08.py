@@ -28,7 +28,26 @@ for i in range(a,b+1):
         s=s+(-i)
 print(s)
 
-'''
 i=0
 while i<5:
     print(i)
+    i=i+2
+
+i=30
+while i>-1:
+    print(i)
+    i=i-1
+
+i=0
+while i<4:
+    print(i**i)
+    i=i+1
+'''
+
+a=int(input())
+i=0
+s=1
+while i<a:
+    i=i+1
+    s=s*i
+print(s)
